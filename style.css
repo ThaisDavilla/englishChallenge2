@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+body{
+background-image: linear-gradient(110deg, #ff0000,#f35b04,#ffea00,#008000,#219ebc,#3F00FF,#A020F0);
+}
+
+header{
+  max-width: 1360px;
+  width: 100%;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav{
+  width: 100%;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size:20;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cartaz{
+margin-left:565px;
+}
+
+article{
+width: 60%;
+height: 12vh;
+margin-left:270px;
+margin-top:20px;
+}
+
+adress{
+margin-left:270px;
+}
+
+.sobre{
+width: 80%;
+height: 30vh;
+display:flex;
+flex-direction:column;
+align-items: center;
+margin-left:120px;
+margin-top:20px;
+justify-content:space-between;
+}
+
+h2{
+margin-top:20px;
+margin-left:600px;
+}
+
+.elenco{
+width: 80%;
+height: 55vh;
+display:flex;
+margin-left:100px;
+align-items:flex-center;
+justify-content:space-between;
+margin-top:20px;
+}
+
+.elenco img{
+border:solid;
+}
+
+.premios{
+width: 50%;
+height: 15vh;
+display:flex;
+flex-direction:column;
+margin-left:350px;
+margin-top:20px;
+}
+
+.premios p{
+margin-top:5px;
+}
+
+footer{
+display:flex;
+justify-content:space-between;
+margin-left:150px;
+margin-top:50px;
+width: 80%;
+height: 30vh;
+}
+
+footer img{
+display:block;
+width: 4vw;
+height:4.5vh;
+background-size: cover;
+margin-top:7.5px;
+}
+
+button {
+margin-left: 100px;
+text-align: center;
+margin-top: 15px;
+height: 60px;
+width: 25%;
+padding: 5px;
+background-image: linear-gradient(#d00000, #ee4526);
+border: solid 1px;
+border-color: #5c3434;
+border-radius: 4px;
+font-weight: 600px;
+cursor: pointer;
+}
